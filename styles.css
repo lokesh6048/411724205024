@@ -1,0 +1,124 @@
+/*p{
+    font-size: xx-large;
+    font-weight: bolder;
+}*/
+
+h1{
+    padding: 20px;
+    border: 20px solid green;
+    margin: 20px;
+}
+img{
+    width: 300px;
+    height: 200px;
+    margin: 30px auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding: 20px 0;
+}
+.image-grid > div{
+    width: 220px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-grid img{
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+video{
+     width: 500px;
+}
+.imgvideo{
+     background-color: aliceblue;
+}
+#p1{
+    font-weight: 600;
+    font-style: italic;
+}
+#p2{
+    font-weight: 300;
+    font-style: italic;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+    gap : 20px;
+}
+ol{
+    list-style-type: disc;
+}
+table, th, td{
+    border: 1px solid rgb(142, 250, 0);
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(0, 201, 252);
+}
+button{
+    background-color: rgb(246, 255, 0);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: complete;
+    border-radius: 5px;
+    font-style : cursive;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+    cursor: alias;
+}
+h1 :hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+form{
+    height: 300px;
+    width: 50%;
+    background-color: rgb(255, 0, 102);
+    border-radius: 100px;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    background-color: rgb(251, 0, 255);
+    padding: 10px;
+    width: 100%;
+    grid-template-columns: 33% 33% 33% 33%;
+}
+#one{
+    background-color: rgb(255, 149, 0);
+   /* grid-row: 1/2;*/
+}
+#two{
+    background-color: rgb(255, 0, 0);
+   /* grid-row: 2/3;*/
+}
+#three{
+    background-color: rgb(0, 255, 170);
+    /*grid-row: 1/2;*/
+}
+#four{
+    background-color: rgb(0, 81, 255);
+    /*grid-row: 2/3;*/
+}
+.festivals{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
